@@ -26,9 +26,9 @@
             <div class="side_bar d-flex flex-column">                 
                 <!-- Main Navbar -->
                 <ul class="nav_bar">
-                    <li class="nav_item pl_15 my-2">
-                        <a href="" class="nav_link">
-                            <img class="logo" src="./assets/img/logo.svg" alt="">
+                    <li class="nav_item pl_15">
+                        <a href="" class="nav_link brand d-flex">
+                            <img class="logo align-self-center" src="./assets/img/logo.svg" alt="">
                         </a>
                     </li>
                     <li class="nav_item pl_15">
@@ -88,7 +88,7 @@
                     </ul>    
                 </div>
                 <!-- /Playlist -->            
-                <div class="sidebar_bottom flex-grow-1 pl_15">
+                <div class="sidebar_bottom fixed-bottom-0 flex-grow-1 pl_15">
                     <div class="install">
                         <a class="text_grey fs_12" href="">
                             <img class="download" src="./assets/img/download.svg" alt="">
@@ -104,10 +104,72 @@
                 </div>
             </div>     
             <!-- /Side_Bar -->
-
+            
             <!-- Main_Pannel -->
             <div class="main_pannel bg_blue">
-                <div class="button_label bg_darkblue"></div>                
+                <div class="button_label d-flex justify-content-end align-items-center fixed-top bg_darkblue">
+                    <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 text-white text-uppercase">Effettua l'upgrade</a>
+                </div>
+                <ul class="filters_bar d-flex justify-content-center flex-wrap py-4 text-uppercase">
+                    <li class="mr-4">
+                        <a class="text_grey fs_13" href="">in evidenza</a>
+                    </li>
+                    <li class="mr-4">
+                        <a class="text_grey fs_13" href="">podcast</a>
+                    </li>
+                    <li class="mr-4">
+                        <a class="text_grey fs_13" href="">classifiche</a>
+                    </li>
+                    <li class="mr-4">
+                        <a class="text_grey fs_13" href="">generi e mood</a>
+                    </li>
+                    <li class="mr-4">
+                        <a class="text_grey fs_13" href="">nuove uscite</a>
+                    </li>
+                    <li class="mr-4">
+                        <a class="text_grey fs_13" href="">scopri</a>
+                    </li>
+                </ul>     
+                
+                <div id="recent" class="d-flex flex-column px-4 text_white">
+                    <h3 class="text_white">Recently played</h3>
+                    <div class="playlist_row container-fluid d-flex my-4">
+                        <div class="row">
+                            <div class="playlist col-lg-2 d-flex flex-column px-2">
+                                <img class="img-fluid" src="./assets/img/metal_lifting.jpg" alt="">
+                                <h5 class="mt-3 text-white text-center font-weight-bold">Heavy Metal</h5>
+                                <span class="artist fs_13 text-center">Subtitle</span>
+                            </div>
+    
+                            <div class="playlist col-lg-2 d-flex flex-column px-2">
+                                <img class="img-fluid" src="./assets/img/stranger.jpeg" alt="">
+                                <h5 class="mt-3 text-white text-center font-weight-bold">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h5>
+                                <span class="artist fs_13 text-center">Kyle Dixon & Michael Stein</span>
+                            </div>
+    
+                            <div class="playlist col-lg-2 d-flex flex-column px-2">            
+                                <img class="img-fluid" src="./assets/img/aquietplace.jpeg" alt="">                            
+                                <h5 class="mt-3 text-white text-center font-weight-bold">A quiet place</h5>
+                                <span class="artist fs_13 text-center">Subtitle</span>
+                            </div>
+    
+                            <div class="playlist col-lg-2 d-flex flex-column px-2">                               
+                                <img class="img-fluid" src="./assets/img/split.jpeg" alt="">                  
+                                <h5 class="mt-3 text-white text-center font-weight-bold">Split</h5>
+                                <span class="artist fs_13 text-center">Subtitle</span>
+                            </div>
+    
+                            <div class="playlist col-lg-2 d-flex flex-column px-2">     
+                                <img class="img-fluid" src="./assets/img/cure.jpeg" alt="">                
+                                <h5 class="mt-3 text-white text-center font-weight-bold">A cure for wellness</h5>
+                                <span class="artist fs_13 text-center">Subtitle</span>
+                            </div>
+    
+                            <div class="playlist col-lg-2 d-flex flex-column px-2">           
+                                <img class="img-fluid" src="./assets/img/sinister.jpeg" alt="">           
+                                <h5 class="mt-3 text-white text-center font-weight-bold">Sinister</h5>
+                                <span class="artist fs_13 text-center">Subtitle</span>
+                            </div>
             </div>
             <!-- /Main_Pannel --> 
         </div>    
