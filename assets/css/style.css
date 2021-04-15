@@ -1,0 +1,36 @@
+/* Side_Bar */
+.side_bar{
+    width: 20vw;
+    height: 100vh;
+    background-color: black;
+}
+/* /Side_Bar */
+/* Main_Pannel */
+.main_pannel{
+    width: 80vw;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.button_label{
+    width: 100%;
+    height: 15vh;
+    background-color: yellow;
+    position: fixed;
+}
+/* /Main_Pannel */
+/* Player_Bar */
+.player_bar{
+    width: 100vw;
+    height: 10vh;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+}
+/* /Player_Bar */
+
+
+
+
+
+
