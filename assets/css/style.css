@@ -15,15 +15,24 @@
     padding-left: 15px;
 }
 
+
+ul{
+    list-style:none;
+    padding: 0;
+}
+li{
+    text-decoration: none;
+}
+
 /* /Utility_Classes */
 
 /* Side_Bar */
 .side_bar{
     width: 20vw;
-    height: 100vh;
+    
     background-color: black;
 }
-
+/* Navbar */
 .logo{
     height: 30px;
 }
@@ -31,15 +40,31 @@
 .symbol{
     height: 20px;
 }
-
-.nav_item{
-    list-style: none;
-    padding-left: 15px;
-}
 .nav_link{
     text-decoration: none;
     vertical-align: middle;
 }
+/* /Navbar */
+
+/* Playlist */
+.grey_square{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+}
+
+.fas.fa-plus{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* /Playlist */
+
 
 
 /* /Side_Bar */
