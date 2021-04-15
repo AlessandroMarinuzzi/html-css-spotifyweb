@@ -1,8 +1,20 @@
+.wrapper{
+    height: 90vh;
+}
 /* Utility_Classes */
 .text_white{
     color: white;
 }
+.text_grey {
+    color: #717171;
+}
+.bg_darkblue{
+    background-color:#080b12eb;;
+}
+.bg_blue{
+background-color: #151922
 
+}
 .fs_12{
     font-size: 12px;
 }
@@ -28,10 +40,14 @@ li{
 
 /* Side_Bar */
 .side_bar{
-    width: 20vw;
-    
+    width: 300px;
+    height: 100%;
     background-color: black;
 }
+.side_bar .text_grey:hover{
+    color: white;
+}
+
 /* Navbar */
 .logo{
     height: 30px;
@@ -40,6 +56,8 @@ li{
 .symbol{
     height: 20px;
 }
+
+
 .nav_link{
     text-decoration: none;
     vertical-align: middle;
@@ -64,31 +82,44 @@ li{
     transform: translate(-50%, -50%);
 }
 /* /Playlist */
+/* Side_Bar Botto */
+img.download{
+    height: 15px;
+}
+
+.install::after{
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin: 5px 0;
+}
+
+
+/* /Side_Bar Botto */
+
 
 
 
 /* /Side_Bar */
 /* Main_Pannel */
 .main_pannel{
-    width: 80vw;
-    height: 100vh;
-    background-color: lightblue;
+    width: 100%;
+    height: 90vh;
 }
 
 .button_label{
     width: 100%;
-    height: 15vh;
-    background-color: yellow;
+    height: 10vh;
     position: fixed;
 }
 /* /Main_Pannel */
 /* Player_Bar */
 .player_bar{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     background-color: grey;
-    position: fixed;
-    bottom: 0;
 }
 /* /Player_Bar */
 

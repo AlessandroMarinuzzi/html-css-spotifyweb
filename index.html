@@ -19,98 +19,105 @@
     <!-- /Style.css -->
 </head>
 
-<body>
-    
+<body> 
     <main>
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Side_Bar -->
-                <div class="side_bar text_white fs_12 px-0 col-2">
-                    <ul class="nav_bar px-0">
-                        <li class="nav_item pl_15 my-3">
-                            <a href="" class="nav_link">
-                                <img class="logo" src="./assets/img/logo.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="nav_item pl_15">
-                            <a href="" class="nav_link text_white">
-                                <img class="symbol" src="./assets/img/home.svg" alt="">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav_item pl_15 my-2">
-                            <a href="" class="nav_link text_white">
-                                <img class="symbol" src="./assets/img/search.svg" alt="">
-                                Cerca
-                            </a>
-                        </li>
-                        <li class="nav_item pl_15">
-                            <a href="" class="nav_link text_white">
-                                <img class="symbol" src="./assets/img/libreria.svg" alt="">
-                                La tua libreria
-                            </a>
-                        </li>
-                    </ul>
-
-                <div class="playlist pl_15">
-                    <span class="text-uppercase fs_13 font-weight-bold">Playlist</span>
-                    
-                     <ul class="play_list">
-                         <li class="new_playlist my-2">
-                            <a class="text_white d-flex align-items-center" href="">
+        <div class="wrapper d-flex">
+            <!-- Side_Bar -->
+            <div class="side_bar d-flex flex-column">                 
+                <!-- Main Navbar -->
+                <ul class="nav_bar">
+                    <li class="nav_item pl_15 my-2">
+                        <a href="" class="nav_link">
+                            <img class="logo" src="./assets/img/logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav_item pl_15">
+                        <a href="" class="nav_link text_grey fs_12">
+                            <img class="symbol home" src="./assets/img/home.svg" alt="">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav_item pl_15 my-1">
+                        <a href="" class="nav_link text_grey fs_12">
+                            <img class="symbol" src="./assets/img/search.svg" alt="">
+                            Cerca
+                        </a>
+                    </li>
+                    <li class="nav_item pl_15">
+                        <a href="" class="nav_link text_grey fs_12">
+                            <img class="symbol" src="./assets/img/libreria.svg" alt="">
+                            La tua libreria
+                        </a>
+                    </li>
+                </ul>
+                <!-- /Main Navbar -->
+                <!-- Playlist -->
+                <div class="playlist flex-grow-1 pl_15">
+                    <span class="text-uppercase text_white fs_13 font-weight-bold">Playlist</span>     
+                    <ul class="play_list">
+                        <li class="new_playlist my-1">
+                            <a class="text_grey d-flex align-items-center" href="">
                                 <span class="grey_square">
                                     <i class="fas fa-plus"></i>
                                 </span>
                                 <span class="fs_13 pl_15">Crea Playlist</span>
                             </a>
-                         </li>
-                         <li class="new_playlist my-2">
-                             <a href="" class="text_white">Nome Playlist</a>
-                         </li>
-                         <li class="new_playlist my-2">
-                            <a href="" class="text_white">Nome Playlist</a>
                         </li>
-                        <li class="new_playlist my-2">
-                            <a href="" class="text_white">Nome Playlist</a>
+                                
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
                         </li>
-                        <li class="new_playlist my-2">
-                            <a href="" class="text_white">Nome Playlist</a>
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
                         </li>
-                        <li class="new_playlist my-2">
-                            <a href="" class="text_white">Nome Playlist</a>
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
                         </li>
-                        <li class="new_playlist my-2">
-                            <a href="" class="text_white">Nome Playlist</a>
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
                         </li>
-                        <li class="new_playlist my-2">
-                            <a href="" class="text_white">Nome Playlist</a>
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
                         </li>
-                     </ul>
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
+                        </li>
+                        <li class="new_playlist my-1">
+                            <a href="" class="text_grey fs_12">Nome Playlist</a>
+                        </li>
+                    </ul>    
                 </div>
-
-                   
+                <!-- /Playlist -->            
+                <div class="sidebar_bottom flex-grow-1 pl_15">
+                    <div class="install">
+                        <a class="text_grey fs_12" href="">
+                            <img class="download" src="./assets/img/download.svg" alt="">
+                            <span class="test">Installa app</span>
+                        </a>                      
+                    </div> 
+                    <div>
+                        <a class="text_grey fs_12" href="">
+                            <img class="download" src="./assets/img/profile.svg" alt="">
+                            <span class="text_white font-weight-bold fs_13">Jon Don</span>
+                        </a> 
+                    </div>       
                 </div>
-                <!-- /Side_Bar -->
+            </div>     
+            <!-- /Side_Bar -->
 
-                <!-- Main_Pannel -->
-                <div class="main_pannel px-0 col-10">
-                    <div class="button_label"></div>
-                    
-                </div>
-                <!-- /Main_Pannel -->
-
+            <!-- Main_Pannel -->
+            <div class="main_pannel bg_blue">
+                <div class="button_label bg_darkblue"></div>                
             </div>
-
-            <div class="row player_bar"></div>
-
-
-            
-        </div>
+            <!-- /Main_Pannel --> 
+        </div>    
     </main>
+    <div class="player_bar"></div>
 
-    <!-- <nav class="player_bar">
-
-    </nav> -->
+   
+    
+        
+        
     
 </body>
 </html>
