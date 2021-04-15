@@ -1,9 +1,47 @@
+/* Utility_Classes */
+.text_white{
+    color: white;
+}
+
+.fs_12{
+    font-size: 12px;
+}
+
+.fs_13{
+    font-size: 13px;
+}
+
+.pl_15{
+    padding-left: 15px;
+}
+
+/* /Utility_Classes */
+
 /* Side_Bar */
 .side_bar{
     width: 20vw;
     height: 100vh;
     background-color: black;
 }
+
+.logo{
+    height: 30px;
+}
+
+.symbol{
+    height: 20px;
+}
+
+.nav_item{
+    list-style: none;
+    padding-left: 15px;
+}
+.nav_link{
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
 /* /Side_Bar */
 /* Main_Pannel */
 .main_pannel{
