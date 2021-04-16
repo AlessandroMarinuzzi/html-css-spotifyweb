@@ -92,6 +92,12 @@ a.text_grey:hover{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.play_list{
+    min-height: 150px;
+    height:calc(100vh - 400px);
+    overflow-y: auto;
+}
 /* /Playlist */
 /* Side_Bar Botto */
 img.download{
@@ -114,17 +120,15 @@ img.download{
 /* Main_Pannel */
 .main_pannel{
     width: calc(100% - 300px);
-    padding-top: 70px;
     overflow-y: auto;
 }
 
 .button_label{
-    width: calc(100% - 300px);
     height: 60px;
     z-index: 1;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    right: 0;
+    right: 0; */
 }
 
 
@@ -142,9 +146,16 @@ img.download{
     top: 100%;
     transform: translateX(-50%);
 }
+.filters_bar>li>a:hover{
+    font-size: 15px;
+}
 
 .song_link{
   position: relative;  
+}
+#popolari .song_link{
+    display: block;
+    border-radius: 50%;
 }
 .overlay{
     background-color: #000000a1;
@@ -207,8 +218,8 @@ img.download{
     transform: translateY(-50%);
     display: none;
     background-color: white;
-    height: 12px;
-    width: 12px;
+    height: 10px;
+    width: 10px;
 }
 
 #volume_bar {
