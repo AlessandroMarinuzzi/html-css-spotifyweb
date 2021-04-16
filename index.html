@@ -281,10 +281,53 @@
     </main>
 
 
-    <footer class="player_bar fixed-bottom d-flex">
-        <div class="left_player"></div>
-        <div class="player"></div>
-        <div class="right_player"></div>
+    <footer id="player_bar" class="fixed-bottom d-flex justify-content-between align-items-center px-2">
+        <!-- Left side Player Bar -->
+        <div class="left_player d-flex align-items-center">
+            <img class="song_playing" src="./assets/img/sinister.jpeg" alt="">
+            <div class="d-flex flex-column align-items-start mx-2">
+                <a class="text_white fs_13 font-weight-bold">Sinister</a>
+                <a class="text_grey fs_12">Brano Nome</a>
+            </div>
+            <div class="left_icons d-flex align-items-center ml-5">
+                <a class="text_grey" href=""><i class="far fa-heart"></i></a> 
+                <a class="text_grey mx-2" href=""><i class="far fa-folder"></i></a>
+            </div>
+        </div>
+        <!-- /Left side Player Bar -->
+        
+        <!-- Player Main Part -->
+        <div class="player d-flex w-100 flex-column">
+            <div class="player_icons d-flex justify-content-center align-items-center my-2 text_white">
+                <i class="mr-4 fas fa-random"></i>
+                <i class="mr-4 fas fa-step-backward"></i>
+                <i class="mr-4 far fa-play-circle"></i>
+                <i class="mr-4 fas fa-step-forward"></i>
+                <i class="fas fa-undo"></i>
+            </div>
+            <div id="media_bar" class="d-flex justify-content-center align-items-center text_white fs_12">
+                <span>0:25</span>
+                <div id="progress_bar" class="mx-3 rounded-pill">
+                    <div class="slider h-100 w-25 rounded-pill">
+                        <div class="slider_handle rounded-circle"></div>
+                    </div>
+                </div>
+                <span>4:35</span>
+            </div>
+
+        </div>
+        <!-- /Player Main Part -->
+
+        <!-- Right_side Player -->
+        <div id="right_player" class="align-items-center d-flex fs_13 text_white">
+            <i class="mr-4 fas fa-bars"></i>
+            <i class="mr-4 fas fa-desktop"></i>
+            <i class="mr-4 fas fa-volume-up"></i>
+            <div id="volume_bar" class="rounded-pill">
+            <div class="slider w-25 h-100 rounded-pill">
+            <div class="slider_handle rounded-circle"></div>
+        </div>
+               
     </footer>
 
    
