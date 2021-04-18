@@ -23,87 +23,118 @@
     <main>
         <div class="wrapper d-flex">
             <!-- Side_Bar -->
-            <div class="side_bar d-flex flex-column">                 
-                <!-- Main Navbar -->
-                <ul class="nav_bar">
-                    <li class="nav_item pl_15">
-                        <a href="" class="nav_link brand d-flex">
-                            <img class="logo align-self-center" src="./assets/img/logo.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="nav_item pl_15">
-                        <a href="" class="nav_link text_grey fs_12">
-                            <img class="symbol home" src="./assets/img/home.svg" alt="">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav_item pl_15 my-1">
-                        <a href="" class="nav_link text_grey fs_12">
-                            <img class="symbol" src="./assets/img/search.svg" alt="">
-                            Cerca
-                        </a>
-                    </li>
-                    <li class="nav_item pl_15">
-                        <a href="" class="nav_link text_grey fs_12">
-                            <img class="symbol" src="./assets/img/libreria.svg" alt="">
-                            La tua libreria
-                        </a>
-                    </li>
-                </ul>
-                <!-- /Main Navbar -->
-                <!-- Playlist -->
-                <div class="playlist flex-grow-1 pl_15">
-                    <span class="text-uppercase text_white fs_13 font-weight-bold">Playlist</span>     
-                    <ul class="play_list">
-                        <li class="new_playlist my-1">
-                            <a class="text_grey d-flex align-items-center" href="">
-                                <span class="grey_square">
-                                    <i class="fas fa-plus"></i>
-                                </span>
-                                <span class="fs_13 pl_15">Crea Playlist</span>
+            <div class="side_bar d-flex flex-column justify-content-between">                 
+                <div class="navbar_wrapper">
+                    <!-- Main Navbar -->
+                    <ul class="nav_bar">
+                        <li class="nav_item pl_15">
+                            <a href="" class="nav_link brand d-flex">
+                                <img class="logo align-self-center" src="./assets/img/logo.svg" alt="">
                             </a>
                         </li>
-                        
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
+                        <li class="nav_item pl_15">
+                            <a href="" class="nav_link text_grey fs_12">
+                                <img class="symbol home" src="./assets/img/home.svg" alt="">
+                                Home
+                            </a>
                         </li>
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
+                        <li class="nav_item pl_15 my-1">
+                            <a href="" class="nav_link text_grey fs_12">
+                                <img class="symbol" src="./assets/img/search.svg" alt="">
+                                Cerca
+                            </a>
                         </li>
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
+                        <li class="nav_item pl_15">
+                            <a href="" class="nav_link text_grey fs_12">
+                                <img class="symbol" src="./assets/img/libreria.svg" alt="">
+                                La tua libreria
+                            </a>
                         </li>
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
-                        </li>
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
-                        </li>
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
-                        </li>
-                        <li class="new_playlist my-1">
-                            <a href="" class="text_grey fs_12">Nome Playlist</a>
-                        </li>
-                    </ul>    
+                    </ul>
+                    <!-- /Main Navbar -->
+                    <!-- Sidebar icons for XS devices -->
+                    <a class="small_logo my-3 px-3" href="/">
+                        <img class="small_icons" src="./assets/img/logo-small.svg" alt="Small Spotify logo">
+                    </a>
+                    <div class="small_navbar px-3">
+                        <a href="#">
+                            <img class="small_icons" src="./assets/img/home.svg" alt="Icon depicting a house">
+                        </a>
+                        <a href="#">
+                            <img class="small_icons my-3" src="./assets/img/search.svg" alt="Icon depicting a magnifying glass">
+                        </a>
+                        <a href="#">
+                            <img class="small_icons" src="./assets/img/libreria.svg" class="img-fluid" alt="Icon depicting three vertical books">
+                        </a>
+                    </div>
+                    <!-- /Sidebar icons for XS devices -->
+                    <!-- Playlist -->
+                    <div class="playlist flex-grow-1 pl_15">
+                        <span class="text-uppercase text_white fs_13 font-weight-bold">Playlist</span>     
+                        <ul class="play_list">
+                            <li class="new_playlist my-1">
+                                <a class="text_grey d-flex align-items-center" href="">
+                                    <span class="grey_square">
+                                        <i class="fas fa-plus"></i>
+                                    </span>
+                                    <span class="fs_13 pl_15">Crea Playlist</span>
+                                </a>
+                            </li>
+                            
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                            <li class="new_playlist my-1">
+                                <a href="" class="text_grey fs_12">Nome Playlist</a>
+                            </li>
+                        </ul>    
+                    </div>
+                    <!-- /Playlist -->     
                 </div>
-                <!-- /Playlist -->     
-                <!-- SideBar_Bottom -->
-                <div class="sidebar_bottom fixed-bottom-0 mt-auto mb-2 pl_15">
-                    <div class="install">
-                        <a class="text_grey fs_12" href="">
-                            <img class="download" src="./assets/img/download.svg" alt="">
-                            <span class="test">Installa app</span>
-                        </a>                      
-                    </div> 
-                    <div>
-                        <a class="text_grey fs_12" href="">
-                            <img class="download" src="./assets/img/profile.svg" alt="">
-                            <span class="text_white font-weight-bold fs_13">Jon Don</span>
-                        </a> 
-                    </div>       
+                <div class="profile_wrapper">
+                    <!-- SideBar_Bottom -->
+                    <div class="sidebar_bottom fixed-bottom-0 mt-auto mb-2 pl_15">
+                        <div class="install">
+                            <a class="text_grey fs_12" href="">
+                                <img class="download" src="./assets/img/download.svg" alt="">
+                                <span class="test">Installa app</span>
+                            </a>                      
+                        </div> 
+                        <div>
+                            <a class="text_grey fs_12" href="">
+                                <img class="download" src="./assets/img/profile.svg" alt="">
+                                <span class="text_white font-weight-bold fs_13">Jon Don</span>
+                            </a> 
+                        </div>       
+                    </div>
+                    <!-- /SideBar_Bottom -->
+                    <!-- Profile options for XS devices -->
+                    <div class="small_sidebar_bottom d-flex flex-column align-items-center mt-auto">
+                        <a href="#">
+                            <img class="small_icons" src="./assets/img/download.svg" alt="Icon depicting an arrow pointing down inside a circle">
+                        </a>
+                
+                        <a href="#" class="rounded-circle">
+                            <img class="small_icons my-3" src="./assets/img/profile.svg" alt="Icon depicting a silhouette">
+                        </a>
+                    </div>
+                    <!-- /Profile options for XS devices -->
                 </div>
-                <!-- /SideBar_Bottom -->
             </div>     
             <!-- /Side_Bar -->
             
@@ -111,12 +142,12 @@
             <div class="main_pannel bg_blue">
                 <!-- Button Upgrade Bar -->
                 <div class="button_label d-flex justify-content-end align-items-center bg_darkblue">
-                    <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 text_white text-uppercase">Effettua l'upgrade</a>
+                    <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 fs_12 text_white text-uppercase">Effettua l'upgrade</a>
                 </div>
                 <!-- /Button Upgrade Bar -->
 
                 <!-- Filters Bar -->
-                <ul class="filters_bar d-flex justify-content-center flex-wrap py-4 text-uppercase">
+                <ul class="filters_bar w-100 d-flex justify-content-center flex-wrap py-4 text-uppercase">
                     <li class="mr-4">
                         <a class="text_grey fs_13" href="">in evidenza</a>
                     </li>
@@ -145,7 +176,7 @@
                     <h4 class="text_white font-weight-bold px-2">Recently played</h4>
                      <div class="playlist_row container-fluid d-flex my-4">
                         <div class="row w-100">
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/metal_lifting.jpg" alt="">
                                     <div class="overlay w-100 h-100">
@@ -156,7 +187,7 @@
                                 <span class="artist fs_13 text-center">Subtitle</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/stranger.jpeg" alt="">
                                     <div class="overlay w-100 h-100">
@@ -167,7 +198,7 @@
                                 <span class="artist fs_13 text-center">Kyle Dixon & Michael Stein</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/aquietplace.jpeg" alt="">                            
                                     <div class="overlay w-100 h-100">
@@ -178,7 +209,7 @@
                                 <span class="artist fs_13 text-center">Subtitle</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/split.jpeg" alt="">                  
                                     <div class="overlay w-100 h-100">
@@ -189,7 +220,7 @@
                                 <span class="artist fs_13 text-center">Subtitle</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/cure.jpeg" alt="">                
                                     <div class="overlay w-100 h-100">
@@ -200,7 +231,7 @@
                                 <span class="artist fs_13 text-center">Subtitle</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/sinister.jpeg" alt="">           
                                     <div class="overlay w-100 h-100">
@@ -221,7 +252,7 @@
                      <span class="text_grey fs_13 px-2">Più ascolti, più accurati saranno i suggerimenti.</span>
                     <div class="playlist_row container-fluid d-flex my-4">
                         <div class="row w-100">
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/radar.jpeg" alt="">
                                     <div class="overlay w-100 h-100">
@@ -231,7 +262,7 @@
                                 <span class="mt-3 text_white text-center fs_15 font-weight-bold">Release Radar</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid" src="./assets/img/mixdaily.jpeg" alt="">
                                     <div class="overlay w-100 h-100">
@@ -251,20 +282,20 @@
                      <span class="text_grey fs_13 px-2">Più ascolti, più accurati saranno i suggerimenti.</span>
                     <div class="playlist_row container-fluid d-flex my-4">
                         <div class="row w-100">
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid lana" src="./assets/img/youg.jpeg" alt="">
-                                    <div class="overlay w-100 h-100">
+                                    <div class="overlay rounded-circle w-100 h-100">
                                         <i class="far fa-play-circle"></i>
                                     </div>
                                 </a>
                                 <span class="mt-3 text_white text-center fs_15 font-weight-bold">Lana Del Rey</span>
                             </div>
     
-                            <div class="playlist col-lg-2 col-md-3 col-sm-6 d-flex flex-column px-2">
+                            <div class="playlist col-lg-2 col-md-3 col-sm-6 col-6 d-flex flex-column px-2">
                                 <a class="song_link" href="">
                                     <img class="img-fluid einaudi" src="./assets/img/einaudi.jpeg" alt="">
-                                    <div class="overlay w-100 h-100">
+                                    <div class="overlay rounded-circle w-100 h-100">
                                         <i class="far fa-play-circle"></i>
                                     </div>
                                 </a>
@@ -284,7 +315,7 @@
     <footer id="player_bar" class="fixed-bottom px-3">
         <!-- Left side Player Bar -->
         <div class="row">
-            <div class="left_player d-flex align-items-center my-2 col-lg-3 col-md-3">
+            <div class="left_player d-flex align-items-center my-2 col-3">
                 <img class="song_playing" src="./assets/img/sinister.jpeg" alt="">
                 <div class="d-flex flex-column align-items-start mx-2">
                     <a class="text_white fs_13 font-weight-bold">Sinister</a>
@@ -298,8 +329,8 @@
             <!-- /Left side Player Bar -->
             
             <!-- Player Main Part -->
-            <div class="player d-flex flex-column w-100 col-lg-6 col-md-6">
-                <div class="player_icons d-flex justify-content-center align-items-center my-2 text_white">
+            <div class="player d-flex flex-column w-100 col-6">
+                <div class="player_icons d-flex justify-content-center my-2 text_white">
                     <i class="mr-4 fas fa-random"></i>
                     <i class="mr-4 fas fa-step-backward"></i>
                     <i class="mr-4 far fa-play-circle"></i>
@@ -320,13 +351,15 @@
             <!-- /Player Main Part -->
 
             <!-- Right_side Player -->
-            <div id="right_player" class="d-flex align-items-center justify-content-end col-lg-3 col-md-3 fs_13 text_white">
+            <div id="right_player" class="d-flex align-items-center justify-content-end col-3 fs_13 text_white">
                 <i class="mr-4 fas fa-bars"></i>
                 <i class="mr-4 fas fa-desktop"></i>
                 <i class="mr-4 fas fa-volume-up"></i>
                 <div id="volume_bar" class="rounded-pill">
-                <div class="slider w-25 h-100 rounded-pill">
-                <div class="slider_handle rounded-circle"></div>
+                    <div class="slider w-25 h-100 rounded-pill">
+                        <div class="slider_handle rounded-circle"></div>
+                    </div>
+                </div>
             </div>
         </div>
                

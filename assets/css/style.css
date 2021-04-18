@@ -1,7 +1,6 @@
 .wrapper{
     height: calc(100vh - 60px);
     width: 100vw;
-    overflow: hidden;
 }
 
 /* Utility_Classes */
@@ -50,9 +49,15 @@ li{
     height: calc(100vh - 60px);
     background-color: black;
 }
-a.text_grey:hover{
+a:hover{
     color: white;
     text-decoration: none;
+}
+
+.small_navbar,
+.small_logo,
+.small_sidebar_bottom{
+    display: none;
 }
 
 /* Navbar */
@@ -64,7 +69,6 @@ a.text_grey:hover{
     height: 20px;
 }
 
-
 .nav_link{
     text-decoration: none;
     vertical-align: middle;
@@ -72,6 +76,19 @@ a.text_grey:hover{
 .brand{
     display: inline-block;
     height:60px;
+}
+
+.nav_bar li:nth-child(2) {
+    position: relative;
+}
+.nav_bar li:nth-child(2):before {
+    content:'';
+    display: block;
+    background-color: #adf62f;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
 }
 /* /Navbar */
 
@@ -92,10 +109,15 @@ a.text_grey:hover{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* ************************************ */
+.playlist{
+    /* height:70%; */
+    overflow-y: hidden;
+}
+/* *********************************** */
 .play_list{
-    min-height: 150px;
-    height:calc(100vh - 400px);
+    min-height: 180px;
+    height: calc(100vh - 350px);
     overflow-y: auto;
 }
 /* /Playlist */
@@ -126,9 +148,6 @@ img.download{
 .button_label{
     height: 60px;
     z-index: 1;
-    /* position: fixed;
-    top: 0;
-    right: 0; */
 }
 
 
@@ -234,10 +253,31 @@ img.download{
     display: block;
 }   
 
-
-
-
 /* /Player_Bar */
 
+@media screen and (max-width:575.98px) {
+    .side_bar{
+        width: 60px;
+    }
+    .main_pannel{
+        width:calc(100vw - 60px);
+    }
 
+    .nav_bar,
+    .playlist,
+    .sidebar_bottom{
+        display: none;
+    }
+
+    .small_logo,
+    .small_navbar,
+    .small_sidebar_bottom{
+        display: block;
+    }
+    .small_icons{
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+    }
+}
 
