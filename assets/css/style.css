@@ -63,8 +63,15 @@ a:hover{
 }
 
 /* Navbar */
+.nav_link.brand{
+    
+    /* display: block; */
+    height:75px;
+}
 .logo{
     height: 30px;
+    /* line-height: 75px;
+    vertical-align: middle; */
 }
 
 .symbol{
@@ -78,10 +85,7 @@ a:hover{
     text-decoration: none;
     vertical-align: middle;
 }
-.brand{
-    display: inline-block;
-    height:60px;
-}
+
 
 .nav_bar li:first-child {
     position: relative;
@@ -116,17 +120,17 @@ a:hover{
 }
 /* ************************************ */
 .playlist{
-    /* height: 100%; */
+    height: 100%;
     overflow-y: hidden;
 }
 /* *********************************** */
 .play_list{
     min-height: 180px;
-    height: calc(100vh - 400px);
+    height: calc(100vh - 350px);
     overflow-y: auto;
 }
 /* /Playlist */
-/* Side_Bar Botto */
+/* Side_Bar Bottom */
 img.download{
     height: 10px;
 }
@@ -291,8 +295,8 @@ img.download{
 }   
 
 /* /Player_Bar */
-@media screen and (max-width:991.98) {
-    #player_bar .left_icons{
+@media screen and (max-width:991.98px) {
+    .left_icons{
         flex-direction: column;
     }
 }
@@ -308,6 +312,7 @@ img.download{
     .right_player{
         display: none;
     }
+
     
 }
 @media screen and (max-width:575.98px) {
@@ -323,10 +328,11 @@ img.download{
 
     .nav_bar,
     .playlist,
-    .sidebar_bottom{
+    .sidebar_bottom,
+    .brand{
         display: none;
     }
-
+    
     .small_logo,
     .small_navbar{
         display: block;
