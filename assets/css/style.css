@@ -63,7 +63,7 @@ a:hover{
 }
 
 /* Navbar */
-.nav_link.brand{
+.brand{
     display: flex;
     align-items: center;
     height: 75px;
@@ -159,7 +159,10 @@ img.download{
     width: calc(100vw - 200px);
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 1; 
+}
+.upgrade{
+    transition: 0.5s;
 }
 .upgrade:hover{
     transform: scale(1.2);
@@ -355,5 +358,15 @@ img.download{
     .left_player,
     .right_player{
         display: none;
+    }
+}
+
+@media screen and (max-height:430px){
+    .button_label{
+        display: none!important;
+    }
+
+    .main_pannel{
+        padding-top: 0;
     }
 }
