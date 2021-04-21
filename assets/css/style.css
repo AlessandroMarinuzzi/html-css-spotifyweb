@@ -259,7 +259,7 @@ img.download{
 
 #progress_bar {
     background-color: #565656;
-    height: 2px;
+    height: 3px;
     width: 70%;
 }
 #progress_bar:hover .slider {
@@ -285,7 +285,7 @@ img.download{
 
 #volume_bar {
     background-color: #565656;
-    height: 2px;
+    height: 3px;
     width: 80px; 
 }
 #volume_bar:hover .slider {
